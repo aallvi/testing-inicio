@@ -1,17 +1,31 @@
 
-describe('Pruebas en <DemoComponent />', () => {
+describe('Pruebas en <DemoComponent', () => { 
+
+
     
-    test('Esta prueba no debe de fallar', () => {
+    test('esta prueba no debe fallar', ()  => {
+
+        // 1. inicializacion
     
-        // 1. inicialización
-        const message1 = 'Hola Mundo';
+        const message1= 'hola mundo'
     
-        // 2. estímulo
-        const message2 = message1.trim();
+    
+        // 2. estimulo 
+    
+        const message2 = message1.trim()
+    
+        // 3. observae el comportamiento esperado
+    
+    
+        expect(message1).toBe(message2)
+    
+    
+    
         
-        // 3. Observar el comportamiento... esperado
-        expect( message1 ).toBe( message2 );
     
-    });
     
-});
+    } )
+
+
+ })
+
